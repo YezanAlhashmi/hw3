@@ -1,0 +1,53 @@
+h1 {
+    color: navy;
+    font-size: 2.25rem;
+}
+
+h2 {
+    color: teal;
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.6;
+    color: darkblue;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+}
+
+ol {
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+}
+
+dl {
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+}
+
+a {
+    color: blue;
+}
+/* descendant selector: overrides the a color only inside nav */
+nav a {
+    color: #e0f2e9;
+    text-decoration: none;
+}
+
+nav {
+    background-color: darkgreen;
+    padding: 0.5em 1em;
+}
+
+.highlight {
+    font-weight: bold;
+    background-color: burlywood;
+}
+
+#intro {
+    font-size: 1.2em;
+    background-color: beige;
+}
