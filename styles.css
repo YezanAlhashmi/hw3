@@ -1,3 +1,26 @@
+body {
+    background-color: #f4f8f6;
+}
+
+header {
+    background-color: #dfeae4;
+    padding: 1em;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+/* selector grouping: one rule for both */
+section,
+article {
+    border: 1px solid grey;
+    padding: 1.25em;
+    margin: 1em 0;
+    background-color: white;
+    min-height: 8em;
+}
+
 h1 {
     color: navy;
     font-size: 2.25rem;
@@ -31,6 +54,7 @@ dl {
 a {
     color: blue;
 }
+
 /* descendant selector: overrides the a color only inside nav */
 nav a {
     color: #e0f2e9;
@@ -50,4 +74,8 @@ nav {
 #intro {
     font-size: 1.2em;
     background-color: beige;
+}
+
+img {
+    max-width: 100%;
 }
