@@ -27,6 +27,7 @@ h1 {
     color: navy;
     font-size: 2.25rem;
     text-align: center;
+    text-shadow: 1px 1px 2px lightgray;
 }
 
 h2 {
